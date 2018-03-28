@@ -1,12 +1,10 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
 import {toAlphaNumeric, toUpperCase} from '../validations/validations';
 import {requiredRule, alphanumericRule, itemExistRule} from '../validations/form';
 
 import Dialog from 'material-ui/Dialog';
 import RaisedButton from 'material-ui/RaisedButton';
-import DatePicker from 'material-ui/DatePicker';
 import { TextValidator, ValidatorForm, DateValidator} from 'react-material-ui-form-validator';
 
 export default class FormModal extends React.Component {

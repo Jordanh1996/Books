@@ -1,4 +1,4 @@
-import {createStore, combineReducers, applyMiddleware, compose} from 'redux';
+import {createStore, compose} from 'redux';
 
 import BooksReducer from '../reducers/BooksReducer';
 

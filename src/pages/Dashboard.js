@@ -8,7 +8,6 @@ import {RequestBooks} from '../requests/Books';
 import FormModal from '../components/FormModal';
 import RemoveModal from '../components/RemoveModal';
 import {toUpperCase, toAlphaNumeric} from '../validations/validations';
-import RaisedButton from 'material-ui/RaisedButton/RaisedButton';
 
 class Dashboard extends React.Component {
 

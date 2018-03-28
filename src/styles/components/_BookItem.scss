@@ -36,24 +36,3 @@
 .BookItem-Edit {
     margin-right: $s-size;
 };
-
-// <div><i class="fa fa-trash"></i></div>
-.list-item {
-    .fa-trash {
-        display: none;
-    }
-
-    .fa-pencil {
-        display: none;
-    }
-
-    :hover {
-        .fa-trash {
-            display: inline-block;
-        }
-
-        .fa-pencil {
-            display: inline-block;
-        }
-    }
-}

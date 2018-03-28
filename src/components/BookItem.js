@@ -1,7 +1,6 @@
 import React from 'react';
-import {connect} from 'react-redux';
 import moment from 'moment';
-import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
+import {Card, CardText} from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 
 class BookItem extends React.Component {

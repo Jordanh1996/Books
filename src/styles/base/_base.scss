@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+};
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: $m-size;
+    line-height: 1.6;
+    margin: 0;
+    background: $blue-light;
+};
+
+body::-webkit-scrollbar {
+	width: 8px;
+};
+
+body::-webkit-scrollbar-thumb {
+	background-color: $blue-dark;
+};

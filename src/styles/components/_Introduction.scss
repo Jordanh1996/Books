@@ -1,0 +1,16 @@
+.Introduction-container {
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    background: linear-gradient(360deg, $blue-light, $blue-dark);
+    padding-bottom: $m-size;
+};
+
+.Introduction-title {
+    font-size: $font-size-xl;
+    color: $white;
+};
+
+.Introduction-button {
+    background: $blue-dark !important;
+};

@@ -1,0 +1,59 @@
+.BookItem-card {
+    margin: $s-size $l-size;
+    .BookItem-Button {
+        opacity: 0 !important;
+    }
+
+    &:hover {
+        .BookItem-Button {
+            opacity: 1 !important;
+            transition: all 5s ease-in-out;
+        }
+    }
+};
+
+.BookItem-card-title {
+    font-size: $font-size-l;
+    font-weight: 600;
+    margin: 0 $s-size;
+    word-break: break-all;
+};
+
+.BookItem-card-author {
+    font-size: $font-size-s;
+    font-weight: 400;
+    margin: 0 $s-size;
+    word-break: break-all;
+};
+
+.BookItem-Divide {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+};
+
+.BookItem-Edit {
+    margin-right: $s-size;
+};
+
+// <div><i class="fa fa-trash"></i></div>
+.list-item {
+    .fa-trash {
+        display: none;
+    }
+
+    .fa-pencil {
+        display: none;
+    }
+
+    :hover {
+        .fa-trash {
+            display: inline-block;
+        }
+
+        .fa-pencil {
+            display: inline-block;
+        }
+    }
+}
